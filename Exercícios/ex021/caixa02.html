@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+
+        }
+        header {
+            background-color: rgb(254, 254, 254);
+            color: rgb(148, 146, 146);
+            padding: 5px;
+            margin: 10px;
+            color: black;
+        }
+        nav{
+            background-color: rgb(189, 237, 248);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black
+        }
+
+        nav > a{
+            background-color:  rgb(140, 183, 169);
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+
+        nav > a:hover {
+            color: rgb(215, 5, 142);
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(252, 252, 252);
+            color: rgb(148, 146, 146);
+            padding: 1px;
+            margin: 1px;
+            color: black;
+        }
+        article{
+            background-color: rgb(243, 202, 208);
+        }
+        article > aside {
+            background-color: rgb(198, 252, 234);
+            padding: 3px;
+        }
+
+
+    footer{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: gray;
+        padding: 1px;
+        margin: 0px;
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+    #assuntos {
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: 1px;
+        margin: 0;
+    }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Meu site</h1>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>corinthians maior do mundo</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o Corinthians</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nam qui accusantium illo quae nobis necessitatibus tempore, incidunt laboriosam sunt debitis quo tempora, alias mollitia doloribus iure enim hic harum.</p>
+                <aside>
+                    <p>artigo escrito por jhow</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo Jhow</p>
+    </footer>
+</body>
+</html>
