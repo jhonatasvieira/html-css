@@ -16,13 +16,16 @@ header {
 }
 
 header > h1 {
-    padding: 50px;
+    padding-top: 50px;
     font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+    font-size: 9em;
 }
 
 
 header > p {
     padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section {
@@ -30,6 +33,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
 }
 
 section.normal {
@@ -41,6 +46,11 @@ section.imagem {
     background-color: rgb(33, 33, 33);
     color: white;
     text-align: justify;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.185);
 }
 
 a {
