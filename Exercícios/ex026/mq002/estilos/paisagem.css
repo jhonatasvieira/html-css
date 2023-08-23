@@ -1,2 +1,7 @@
 @charset "UTF-8";
+
 /* CELULAR DEITADO (LANDSCAPE) */
+
+body {
+    background: url(../imagens/cev-landscape.jpg);
+}
