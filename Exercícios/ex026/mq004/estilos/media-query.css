@@ -4,6 +4,20 @@
 
 /* impressões*/
 @media print {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
     img#phone {
         display: none;
     }
