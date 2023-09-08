@@ -8,4 +8,12 @@
     menu {
         display: block;
     }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        max-width: 768px;
+    }
 }
